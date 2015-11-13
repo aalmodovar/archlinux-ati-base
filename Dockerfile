@@ -1,4 +1,5 @@
 FROM pritunl/archlinux
+
 MAINTAINER Antonio Almodóvar <aalmodovar@gmail.com>
 
 RUN pacman -S --needed --noconfirm base-devel wget
